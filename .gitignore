@@ -1,0 +1,9 @@
+#Extensions
+
+*.exe
+*.o
+
+# Individual Programs
+
+helloworld
+helloworld2
