@@ -1,11 +1,13 @@
-; Compile: nasm -f elf helloworld2.asm
-; Link: ld -m elf_i386 helloworld2.o -o helloworld2
-; Run: ./helloworld2
+; Compile: nasm -f elf strlen.asm
+; Link: ld -m elf_i386 strlen.o -o strlen
+; Run: ./strlen
  
 SECTION .data
-msg     db      'Hello World! This is a test of modifying string length.', 0Ah     
+
+    msg     db  'Hello World! This is a test of modifying string length.', 0Ah     
  
 SECTION .text
+
 global  _start
  
 _start:
